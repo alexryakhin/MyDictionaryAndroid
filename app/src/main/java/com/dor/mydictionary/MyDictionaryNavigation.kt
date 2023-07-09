@@ -14,7 +14,9 @@ private object MyDictionaryScreens {
 }
 
 object MyDictionaryDestinationsArgs {
+    const val USER_MESSAGE_ARG = "userMessage"
     const val WORD_ID_ARG = "wordId"
+    const val TITLE_ARG = "title"
 }
 
 object MyDictionaryDestinations {
@@ -41,8 +43,8 @@ class MyDictionaryNavigationActions(private val navController: NavHostController
         }
     }
 
-    fun navigateToTaskDetail(taskId: String) {
-        navController.navigate("$WORD_DETAIL_SCREEN/$taskId")
+    fun navigateToWordDetail(wordId: String) {
+        navController.navigate("$WORD_DETAIL_SCREEN/{$wordId}")
     }
 
     fun navigateToAddWord() {

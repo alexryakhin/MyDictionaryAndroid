@@ -1,3 +1,44 @@
 <resources>
-    <string name="app_name">MyDictionary</string>
+    <string name="app_name">My Dictionary</string>
+    <string name="add_word">Add Word</string>
+    <string name="edit_word">Edit Word</string>
+    <string name="word_details">Word Details</string>
+    <string name="task_marked_favorite">Word marked favorite</string>
+    <string name="task_marked_not_favorite">Task marked not favorite</string>
+    <string name="loading_words_error">Error while loading words</string>
+    <string name="loading_word_error">Error while loading word</string>
+    <string name="word_not_found">Word not found</string>
+    <string name="menu_filter">Filter</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="menu_back">Back</string>
+    <string name="menu_delete_word">Delete word</string>
+    <string name="menu_more">More</string>
+    <string name="title_hint">Title</string>
+    <string name="definition_hint">Definition</string>
+    <string name="cd_save_word">Save word</string>
+    <string name="empty_word_message">Words cannot be empty</string>
+    <string name="successfully_saved_word_message">Word saved</string>
+    <string name="words_list_title">Words</string>
+    <string name="no_data">No data</string>
+    <string name="loading">LOADING</string>
+
+    <string-array name="list_words_array">
+        <item>@string/nav_all</item>
+        <item>@string/nav_favorites</item>
+    </string-array>
+    <string name="nav_all">All</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="label_all">All Words</string>
+    <string name="label_favorite">Favorite Words</string>
+    <string name="no_words_all">You have no words saved!</string>
+    <string name="no_words_active">You have no favorite words!</string>
+    <string name="refresh">Refresh</string>
+    <string name="successfully_deleted_word_message">Word was deleted</string>
+    <string name="successfully_added_word_message">Word added</string>
+    <string name="no_data_description" />
+
+    <!-- Content Descriptions -->
+    <string name="words_header_image_content_description">Words header image</string>
+    <string name="no_words_image_content_description">No words image</string>
+
 </resources>

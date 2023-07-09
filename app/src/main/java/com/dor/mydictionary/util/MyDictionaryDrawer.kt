@@ -71,7 +71,7 @@ private fun AppDrawer(
         DrawerHeader()
         DrawerButton(
             imageVector = Icons.Default.StackedBarChart,
-            label = "Words",
+            label = stringResource(id = R.string.words_list_title),
             isSelected = currentRoute == MyDictionaryDestinations.WORDS_ROUTE,
             action = {
                 navigateToTasks()
@@ -100,7 +100,7 @@ private fun DrawerHeader(
             modifier = Modifier.width(100.dp)
         )
         Text(
-            text = "My Dictionary",
+            text = stringResource(id = R.string.app_name),
             color = MaterialTheme.colors.surface
         )
     }
